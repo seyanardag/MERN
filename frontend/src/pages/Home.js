@@ -21,7 +21,7 @@ const [workouts, setWorkouts] = useState(null)
   return (
     <div className='home'>
     <div className='workouts'> 
-    <h2>HOME</h2>
+    {/* <h2>HOME PAGE</h2> */}
         {workouts && workouts.map((workout)=>(
             <WorkoutDetails key={workout._id} workout={workout}/>
    
